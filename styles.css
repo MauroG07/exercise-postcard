@@ -1,0 +1,82 @@
+body {
+	background-color: black;
+}
+h1 {
+	font-family: "Pacifico", cursive;
+	font-weight: 400;
+	font-style: normal;
+}
+img {
+	object-fit: contain;
+	width: 80px;
+	margin-top: 5px;
+	height: 65px;
+}
+
+.postcard {
+	background-image: url(https://t3.ftcdn.net/jpg/05/81/86/72/360_F_581867232_6z7pZl5MutNLBXGnQqrmoHbHnfoTM1eu.jpg);
+	background-size: cover;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	color: wheat;
+	width: 350px;
+	margin: 10px;
+	margin-top: 0;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.postcard-header img {
+	width: 80px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	color: rgb(224, 213, 60);
+	font-size: 21px;
+	font-family: "Caveat";
+	font-weight: bold;
+	margin-top: 0;
+	padding: 5px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.body-left p:nth-child(2) {
+	font-family: "Press Start 2P";
+	font-size: 12px;
+	margin-top: -15px;
+	padding: 5px;
+	text-shadow: -1px -1px 0 #fcfcfc, 1px -1px 0 #fcfcfc, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+.body-left,
+.body-right {
+	padding: 5px;
+}
+p {
+	font-size: 18px;
+}
+input {
+	background-color: rgba(224, 221, 221, 0.596);
+}
+.postcard-footer {
+	margin-top: -15px;
+	text-align: center;
+}
+button {
+	color: white;
+	background-color: green;
+	padding: 6px;
+	border-radius: 15px;
+}
+button:active {
+	color: yellow;
+}
+button:hover {
+	border-color: #5eff00 #5eff00 #ff8400 #ff7300;
+}
